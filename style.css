@@ -1,0 +1,44 @@
+/* Style de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+    background-image: url('explosion-background.jpg'); /* Image d'explosion */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Prendre toute la hauteur de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur central */
+#container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    width: 80%; /* largeur pour s'assurer que c'est pas trop grand */
+    max-width: 800px; /* Largeur max pour le contenu */
+}
+
+/* Header */
+header h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.7); /* Effet d'ombre "explosive" */
+}
+
+/* Section Explosions */
+#explosions h2 {
+    font-size: 2.5em;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #000;
+}
